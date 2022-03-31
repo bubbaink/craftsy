@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import "./cart.css";
+@import "./detail.css";
+@import "./register.css";
+@import "./general.css";
+@import "./login.css";
+@import "./variables.css";
+@import "./home.css";
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;

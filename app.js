@@ -22,6 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 /* app.use('/', indexRouter);
 app.use('/users', usersRouter); */
+
 app.get("/",(req,res)=> res.sendFile(path.resolve(__dirname,"views","index.html")))
 app.get("/product-cart",(req,res)=> res.sendFile(path.resolve(__dirname,"views","productCart.html")))
 app.get("/login",(req,res)=> res.sendFile(path.resolve(__dirname,"views","login.html")))
