@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Crenzo";
+  font-style: "normal";
+  src: url("/fonts/CRENZO.ttf") format("truetype");
+  font-weight: "normal";
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import "./cart.css";
 @import "./detail.css";
