@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "Crenzo";
-  font-style: "normal";
-  src: url("/fonts/CRENZO.ttf") format("truetype");
-  font-weight: "normal";
-}
+
 @import "./header.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import "./cart.css";
@@ -14,11 +9,6 @@
 @import "./variables.css";
 @import "./home.css";
 
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
-a {
-  color: #00B7FF;
-}
+
+
