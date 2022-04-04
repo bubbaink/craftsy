@@ -1,4 +1,66 @@
-body.home{
-    background-color: darkturquoise;
+.index__box-products{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+.index__product{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+
+}
+.index__product img{
+    width: 100%;
+    
+}
+.index__product h4{
+    margin: 10px 0;
+}
+.index__product a.index__a{
+    background-color: var(--colorRojo);
+    display: inline-block;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
 }
 
+/* tuto */
+.index__tutoriales{
+    margin-top: 30px;
+}
+.index__tutoriales h3, .index__ad h3{
+    background-color: white;
+    border: 1px solid var(--colorCeleste);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.index article.index__tutorial{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid var(--colorCeleste);
+    border-bottom: none;
+}
+.index article.index__tutorial:last-child{
+    border-bottom: border 1px solid var(--colorCeleste);
+}
+.index article.index__tutorial p{
+    margin-left: 10px;
+}
+/* PUBLICUDAD   */
+.index__ad{
+    margin-top: 30px;
+}
+.index__ad .index__ad_i{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid var(--colorCeleste);
+
+}
