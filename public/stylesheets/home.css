@@ -12,6 +12,7 @@
     width: 300px;
     display: flex;
     flex-direction: column;
+    padding: 10px;
     
 }
 .index__product img{

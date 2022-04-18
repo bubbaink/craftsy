@@ -7,7 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
-<body>
+<body class="login">
     <header>
         <div class="header__logo">
             <a href="/"><img src="/images/logo.png" alt=""></a>
@@ -24,5 +24,30 @@
             </ul>
         </nav>
     </header>  
+    <main>
+        
+        <form action="">
+            
+            <section>
+                <h1>Ingresa</h1>
+                <hr>
+                <div class="login__form-box">
+                    <label for="email">Email</label>
+                    <input class="register__form-input" type="email" id="email" name="email" placeholder="Escribi tu email">
+                    <span class="register__text-error">Obligatorio</span>
+                </div>
+                <div class="login__form-box">
+                    <label for="password">Password</label>
+                    <input class="register__form-input" type="password" id="password" name="password" placeholder="Escribi tu password">
+                    <span class="register__text-error">Obligatorio</span>
+                </div>
+                    <div class="register__form-box register__center">
+                    <button type="submit">ingresar</button> 
+            
+                </div>
+            </section>
+        </form>
+    </main>
 </body>
+
 </html>
