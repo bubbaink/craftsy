@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-let productRouter = require ("./routes/products");
+let productRouter = require ('./routes/products');
 const { sendFile } = require('express/lib/response');
 
 var app = express();
@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use("./product", productRouter);
+app.use('/products', productRouter);
 
 /* app.get("/",(req,res)=> res.sendFile(path.resolve(__dirname,"views","index.html"))); */
 /* app.get("/product-cart",(req,res)=> res.sendFile(path.resolve(__dirname,"views","productCart.html")));
